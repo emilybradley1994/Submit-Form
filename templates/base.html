@@ -1,0 +1,19 @@
+{% extends 'bootstrap/base.html' %}
+
+
+<!-- # include vs extends? -->
+
+{% block title %}
+Submit Form
+{% endblock %}
+
+
+{% block navbar %}
+    {% include '_navbar.html' %}
+{% endblock %}
+
+
+{% block content %}
+    {% block sub_content %}
+    {% endblock %}
+{% endblock %}

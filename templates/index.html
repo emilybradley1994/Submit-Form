@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block sub_content %}
+<form method = "POST">
+    
+    <div class="form-group col-md-4 col-md-offset-4">
+        <label>Name:</label>
+        <input type="text" class="form-control" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group col-md-4 col-md-offset-4">
+        <label>Age:</label>
+        <input type="text" class="form-control" placeholder="Age" name="age">
+    </div>
+    <button type="submit" class="btn btn-primary col-md-4 col-md-offset-4">Submit</button>
+</form>
+
+
+{% endblock %}
